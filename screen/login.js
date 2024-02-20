@@ -34,7 +34,7 @@ export default function Login({navigation}) {
 <View style={{display:'flex',flexDirection:'row',gap:"80%",marginTop:"5%",marginBottom:"3%",marginLeft:"10%",alignItems:"baseline"}}>
     <Text style={{color:"#0000cc"}}>ForgetPassword?</Text>
 <TouchableOpacity style={{backgroundColor:'#000',borderRadius:20,width:"35%",height:30}}  onPress={() =>
-        navigation.navigate('Register')}>
+        navigation.navigate("Register")}>
         <Text style={{color:'#fff',padding:"2%",textAlign:'center',marginTop:"1%",}}>Login</Text></TouchableOpacity>
 </View>
 <View style={{display:'flex',flexDirection:'row',marginLeft:"10%",gap:70,marginTop:30,marginBottom:"5%"}}>

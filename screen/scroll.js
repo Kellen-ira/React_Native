@@ -4,7 +4,7 @@ import React from 'react'
 //import LinearGradient from 'react-native-linear-gradient'
 import { StatusBar } from 'expo-status-bar'
 import { Icon } from 'react-native-elements'
-// import { Icon } from 'react-native-paper'
+//import { Icon } from 'react-native-paper'
 import { color } from 'react-native-elements/dist/helpers'
 
 export default function Scroll() {
@@ -15,27 +15,33 @@ export default function Scroll() {
       <Text style={{fontSize:25, fontWeight:'bold', paddingTop:50, paddingLeft:25}}>Home</Text>
         <View style={styles.gradient}>
           <View style={styles.icon}>
-            <View style={{backgroundColor:'white',
-      padding:20,
-      borderRadius:50}}><Icon name='bolt' size={16} type='font-awesome' iconStyle={{color:'#8064FF', borderWidth:2, borderColor:'#D3CBF1', paddingHorizontal:10, paddingVertical:6, borderRadius:16 }}/></View>
-          <View><Text>Price Alert</Text></View>
+            <View style={{backgroundColor:'white',padding:20,borderRadius:50}}>
+              <Icon name='bolt' size={16} type='font-awesome' iconStyle={{color:'#8064FF', 
+              borderWidth:2, borderColor:'#D3CBF1', 
+              paddingHorizontal:10, paddingVertical:6, borderRadius:16 }}/>
+              </View>
+             <View><Text>Price Alert</Text></View>
           </View>
+
           <View style={styles.icon}>
-            <View style={{backgroundColor:'white',
-      padding:20,
-      borderRadius:50}}><Icon name='arrow-right' size={15} type='font-awesome' iconStyle={{color:'#F7C480', borderWidth:2, borderColor:'#FCDDB6', paddingHorizontal:7, paddingVertical:6, borderRadius:16 }}/></View>
+            <View style={{backgroundColor:'white',padding:20,borderRadius:50}}>
+            <Icon name='arrow-right' size={15} type='font-awesome' iconStyle={{color:'#F7C480', borderWidth:2, 
+            borderColor:'#FCDDB6', paddingHorizontal:7, paddingVertical:6, borderRadius:16 }}/>
+            </View>
           <View><Text>Convert</Text></View>
           </View>
           <View style={styles.icon}>
-            <View style={{backgroundColor:'white',
-      padding:20,
-      borderRadius:50}}><Icon name='square' size={15} type='font-awesome' iconStyle={{color:'#768AFF', borderWidth:2, borderColor:'#DEE9F4', paddingHorizontal:5, paddingVertical:4}}/></View>
+            <View style={{backgroundColor:'white',padding:20,borderRadius:50}}>
+              <Icon name='square' size={15} type='font-awesome' iconStyle={{color:'#768AFF', 
+              borderWidth:2, borderColor:'#DEE9F4', paddingHorizontal:5, paddingVertical:4}}/>
+              </View>
           <View><Text>Compare</Text></View>
           </View>
           <View style={styles.icon}>
-            <View style={{backgroundColor:'white',
-      padding:20,
-      borderRadius:50}}><Icon name='star' size={15} type='font-awesome' iconStyle={{color:'#6FC584', borderWidth:2, borderColor:'#C1E1D4', paddingHorizontal:7, paddingVertical:6, borderRadius:16 }}/></View>
+            <View style={{backgroundColor:'white',padding:20,borderRadius:50}}>
+              <Icon name='star' size={15} type='font-awesome' iconStyle={{color:'#6FC584', 
+              borderWidth:2, borderColor:'#C1E1D4', paddingHorizontal:7, paddingVertical:6, borderRadius:16 }}/>
+              </View>
           <View><Text>Watchlist</Text></View>
           </View>
         </View>
@@ -50,8 +56,11 @@ export default function Scroll() {
               <Text style={{fontSize:23, fontWeight:'500'}}>$32,128.80</Text>
             </View>
             <View>
-              <View style={{backgroundColor:'#C1E1D4', width:50, paddingHorizontal:8,paddingVertical:13, borderRadius:30}}><Icon name='house' iconStyle={{color:'#6FC584'}}/></View>
-              <View style={{display:'flex', flexDirection:'row', gap:3}}><Icon name='angle-down' type='font-awesome' iconStyle={{paddingTop:15, color:'#F16279'}}/><Text style={{marginTop:18, color:'gray', fontWeight:'bold'}}>2.5%</Text></View>
+              <View style={{backgroundColor:'#C1E1D4', width:50, paddingHorizontal:8,paddingVertical:13, borderRadius:30}}>
+                <Icon name='house' iconStyle={{color:'#6FC584'}}/></View>
+              <View style={{display:'flex', flexDirection:'row', gap:3}}>
+                <Icon name='angle-down' type='font-awesome' iconStyle={{paddingTop:15, color:'#F16279'}}/>
+                <Text style={{marginTop:18, color:'gray', fontWeight:'bold'}}>2.5%</Text></View>
             </View>
           </View>
           <View style={styles.card}>
@@ -159,6 +168,9 @@ export default function Scroll() {
           <Icon name='user' type='font-awesome' size={30} iconStyle={{color:'rgba(128, 128, 128, 0.3)'}}/>
         </View>
         </View>
+      </View>
+      <View>
+        <Icon name='ange-down' type='font-awesome' size={30}/>
       </View>
       {/* </ScrollView> */}
     </View>
